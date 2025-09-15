@@ -24,7 +24,7 @@ python-programming-assignments/
 1. **Run the test file** copied as part of the assignment:
 
    ```bash
-   python -m unittest tests/<test-file-name>
+   python3 -m unittest tests/<test-file-name>
    ```
 
    > 💡 On the first run, all tests will fail — this is expected.
@@ -35,17 +35,20 @@ python-programming-assignments/
 
 ---
 
-## 🔧 **Prerequisites** (should already be installed)
-
-* Python **3.8+**
-* **pip** (Python package installer)
-
----
-
 ## 🧪 **Additional Commands**
 
 ### Run **All Tests**
 
 ```bash
-python -m unittest tests/test_*
+python3 -m unittest discover
 ```
+
+---
+
+
+## 🔧 **Prerequisites** (should already be installed)
+
+* Python **3.8+**
+* **pip** (Python package installer)
+
+
